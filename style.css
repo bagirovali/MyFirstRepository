@@ -1,0 +1,219 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    transition: 0.4s;
+    color: white;
+}
+header .container {
+    padding: 0 203px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+.container .logo:hover{
+    transition: 0.4s;
+    color: white;
+}
+header .logo {
+    font-size: 19px;
+    color: #CFC7C6;
+    text-transform: uppercase;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 700;
+    padding:1rem 0;
+    display: block;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul a {
+    color: white;
+    text-transform: uppercase;
+    padding:0 1rem;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.wallpaper-section {
+    background-position: center;
+    height: 100vh; 
+}
+ul li a{
+    color: #CFC7C6;
+}
+.text{
+    line-height: 1.2;
+    color: #FFFFFF; 
+    margin-top: 197px    ;
+    font-size: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+p{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.rofy{
+    font-size: 20px;
+    color: #CFC7C6;
+    font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;;
+}
+button{
+    border: none;
+    border-radius: 30px;
+    background-color: #FF6347;
+    color: white;
+    width: 190px;
+    height: 55px;
+    margin-top: 55px;
+    font-weight: 700!important;
+    outline: none;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+button:hover{
+    background-color: #CA4527;
+    transition: 0.4s;
+}
+.tomato-section{
+    background-color: tomato;
+    width: 100%;
+    height: 493.2px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tomato-section h1{
+    font-size: 33px;
+    position: relative;
+    margin-bottom: .5rem; 
+    font-family: inherit;
+    font-weight: 500px; 
+    line-height: 1.5; 
+    color: inherit;
+}
+.tomato-section h1::before{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 51px;
+    height: 1px;
+    background-color: white;
+}
+.tomato-section p{
+    font-size: 19px;
+    text-decoration:none;
+    color: #fbcfc6
+}
+.tomato-section button{
+    background-color: white;
+    color: black;
+    margin-top: 50px;
+    font-size: inherit;
+}
+.tomato-section button:hover{
+    background-color: #CFC7C6;
+    color: black;
+}
+h1{
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom:5px;
+    margin-left: 20px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+   
+}
+.suspus{
+    font-family: inherit;
+    font-family:-BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+header{
+    height: 60px;
+}
+.tomato{
+    width: 50px;
+    height: 3px;
+    background-color: tomato;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.tomato-section .white-div{
+    width: 50px;
+    height: 3px;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+}
+.lil-boom{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.white-section{
+    width: 100%;
+    height: 449.4;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.icon{
+    width: 80px;
+    height: 90px;
+}
+.icons{
+    display: flex;
+
+}
+.white-section .border-div{
+    width: 50px;
+    height: 3px;
+    background-color: tomato;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.white-section{
+    display: flex;
+    justify-content: center;
+}
+.icons{
+    display:    flex;
+    margin-left:50px;
+}
+img{
+    margin-left:50px;
+}
+.h1-p{
+    display: flex;
+}
+.At{
+    display: flex;
+    justify-content: center;
+    font-size: 33px;
+}
